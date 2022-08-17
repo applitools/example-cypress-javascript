@@ -9,7 +9,7 @@ using [Cypress](https://www.cypress.io/) in JavaScript.
 It uses:
 
 * [JavaScript](https://www.javascript.com/) as the programming language
-* [Cypress](https://www.cypress.io/) for browser automation
+* [Cypress 10](https://www.cypress.io/) for browser automation
 * [Google Chrome](https://www.google.com/chrome/downloads/) as the local browser for testing
 * [npm](https://www.npmjs.com/) for dependency management
 * [Applitools Eyes](https://applitools.com/platform/eyes/) for visual testing
