@@ -36,7 +36,7 @@ The Applitools config file is [`applitools.config.js`](applitools.config.js).
 The main test spec is [`acme-bank.spec.js`](cypress/integration/acme-bank.spec.js).
 
 To execute tests, set the `APPLITOOLS_API_KEY` environment variable
-to your [account's API key](https://applitools.com/tutorials/getting-started/setting-up-your-environment.html).
+to your [account's API key](https://applitools.com/tutorials/guides/getting-started/registering-an-account).
 
 Then, to open the Cypress window for launching tests, run:
 
