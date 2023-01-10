@@ -9,11 +9,14 @@ using [Cypress](https://www.cypress.io/) in JavaScript.
 It uses:
 
 * [JavaScript](https://www.javascript.com/) as the programming language
-* [Cypress 10](https://www.cypress.io/) for browser automation
+* [Cypress](https://www.cypress.io/) for browser automation
 * [Google Chrome](https://www.google.com/chrome/downloads/) as the local browser for testing
 * [npm](https://www.npmjs.com/) for dependency management
 * [Applitools Eyes](https://applitools.com/platform/eyes/) for visual testing
 * [Applitools Ultrafast Grid](https://applitools.com/platform/ultrafast-grid/) for cross-browser execution
+
+This project uses the latest version of Cypress.
+For Cypress 9, please visit our [Cypress 9 example project](https://github.com/applitools/example-cypress9-javascript-ufg).
 
 To run this example project, you'll need:
 

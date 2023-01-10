@@ -1,7 +1,7 @@
 {
   "name": "example-cypress-javascript-ufg",
   "version": "2.0.0",
-  "description": "An example project for Cypress 10 in JavaScript using Applitools Ultrafast Grid",
+  "description": "An example project for Cypress in JavaScript using Applitools Ultrafast Grid",
   "main": "index.js",
   "scripts": {
     "test": "cypress run --browser chrome",
@@ -10,7 +10,7 @@
   "author": "Applitools Team <team@applitools.com> (http://www.applitools.com/)",
   "license": "Apache License 2.0",
   "dependencies": {
-    "@applitools/eyes-cypress": "^3.27.1",
-    "cypress": "^10.9"
+    "@applitools/eyes-cypress": "^3.28.1",
+    "cypress": "^12.3.0"
   }
 }
