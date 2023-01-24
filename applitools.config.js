@@ -15,7 +15,7 @@ module.exports = {
     apiKey: 'APPLITOOLS_API_KEY',
     
     // A batch is the collection of visual checkpoints for a test suite.
-    // Batches are displayed in the dashboard, so use meaningful names.
+    // Batches are displayed in the Eyes Test Manager, so use meaningful names.
     batchName: 'Example: Cypress in JavaScript with the Ultrafast Grid',
 
     // Applitools can run checkpoints for snapshots against any browser in the Ultrafast Grid.
