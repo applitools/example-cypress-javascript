@@ -13,8 +13,16 @@ describe('ACME Bank', () => {
         // Open Eyes to start visual testing.
         // Each test should open its own Eyes for its own snapshots.
         cy.eyesOpen({
-            appName: 'ACME Bank',                       // The name of the app under test
-            testName: Cypress.currentTest.title,        // The name of the test case
+            
+            // The name of the application under test.
+            // All tests for the same app should share the same app name.
+            // Set this name wisely: Applitools features rely on a shared app name across tests.
+            appName: 'ACME Bank',
+            
+            // The name of the test case for the given application.
+            // Additional unique characteristics of the test may also be specified as part of the test name,
+            // such as localization information ("Home Page - EN") or different user permissions ("Login by admin"). 
+            testName: Cypress.currentTest.title,
         })
     })
 
