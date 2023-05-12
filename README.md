@@ -1,10 +1,9 @@
-# Applitools Example: Cypress JavaScript with the Ultrafast Grid
+# Applitools Example: Cypress in JavaScript
 
 This is the example project for the [Cypress JavaScript tutorial](https://applitools.com/tutorials/quickstart/web/cypress).
 It shows how to start automating visual tests
 with [Applitools Eyes](https://applitools.com/platform/eyes/)
-and the [Ultrafast Grid](https://applitools.com/platform/ultrafast-grid/)
-using [Cypress](https://www.cypress.io/) in JavaScript.
+and [Cypress](https://www.cypress.io/) in JavaScript.
 
 It uses:
 
@@ -14,9 +13,6 @@ It uses:
 * [npm](https://www.npmjs.com/) for dependency management
 * [Applitools Eyes](https://applitools.com/platform/eyes/) for visual testing
 * [Applitools Ultrafast Grid](https://applitools.com/platform/ultrafast-grid/) for cross-browser execution
-
-This project uses the latest version of Cypress.
-For Cypress 9, please visit our [Cypress 9 example project](https://github.com/applitools/example-cypress9-javascript-ufg).
 
 To run this example project, you'll need:
 
