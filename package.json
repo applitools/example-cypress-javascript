@@ -1,7 +1,7 @@
 {
-  "name": "example-cypress-javascript-ufg",
-  "version": "2.0.0",
-  "description": "An example project for Cypress in JavaScript using Applitools Ultrafast Grid",
+  "name": "example-cypress-javascript",
+  "version": "2.1.0",
+  "description": "An Applitools example project for Cypress in JavaScript",
   "main": "index.js",
   "scripts": {
     "test": "cypress run --browser chrome",
