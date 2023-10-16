@@ -1,6 +1,6 @@
 describe('ACME Bank', () => {
     beforeEach(() => {
-		// Start Applitools Visual AI Test
+// Start Applitools Visual AI Test
         cy.eyesOpen({
             appName: 'ACME Bank',
             testName: Cypress.currentTest.title,
@@ -9,7 +9,7 @@ describe('ACME Bank', () => {
     it('should log into a bank account', () => {
         cy.visit('https://sandbox.applitools.com/bank')
 
-		// Full Page - Visual AI Assertion
+// Full Page - Visual AI Assertion
         cy.eyesCheckWindow({
             tag: "Login page",
             fully: true
@@ -25,7 +25,7 @@ describe('ACME Bank', () => {
         });
     })
     afterEach(() => {
-		// End Applitools Visual AI Test
+// End Applitools Visual AI Test
         cy.eyesClose()
     })
 })
