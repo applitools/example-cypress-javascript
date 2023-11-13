@@ -17,6 +17,7 @@ describe('ACME Bank', () => {
         cy.get('#username').type('user')
         cy.get('#password').type('password')
         cy.get('#log-in').click()
+		cy.get('.dashboardNav_navContainer__kA4wD').should('be.visible');
 
         cy.eyesCheckWindow({
             tag: "Main page",
