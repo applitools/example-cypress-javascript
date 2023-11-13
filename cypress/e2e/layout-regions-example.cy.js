@@ -1,6 +1,6 @@
 describe('ACME Bank', () => {
     beforeEach(() => {
-		// Start Applitools Visual AI Test
+        // Start Applitools Visual AI Test
         cy.eyesOpen({
             appName: 'ACME Bank',
             testName: Cypress.currentTest.title,
@@ -9,7 +9,7 @@ describe('ACME Bank', () => {
     it('should log into a bank account', () => {
         cy.visit('https://sandbox.applitools.com/bank?layoutAlgo=true');
 
-		// Full Page - Visual AI Assertion
+        // Full Page - Visual AI Assertion
         cy.eyesCheckWindow({
             tag: "Login page"
         });
@@ -20,14 +20,14 @@ describe('ACME Bank', () => {
 
         cy.eyesCheckWindow({
             tag: "Main page",
-			layout: [
-				{selector: '.dashboardOverview_accountBalances__3TUPB'},
-				{selector: '.dashboardTable_dbTable___R5Du'}
-			]
+            layout: [
+                {selector: '.dashboardOverview_accountBalances__3TUPB'},
+                {selector: '.dashboardTable_dbTable___R5Du'}
+            ]
         });
     })
     afterEach(() => {
-		// End Applitools Visual AI Test
+        // End Applitools Visual AI Test
         cy.eyesClose()
     })
 })
