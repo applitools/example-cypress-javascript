@@ -6,7 +6,7 @@ describe('ACME Bank', () => {
             testName: Cypress.currentTest.title,
         })
     })
-    it('Cypress: should log into a bank account', () => {
+    it('Cypress: Quickstart', () => {
         cy.visit('https://sandbox.applitools.com/bank?layoutAlgo=true');
 
         // Full Page - Visual AI Assertion
