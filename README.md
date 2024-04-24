@@ -51,3 +51,4 @@ npx cypress run
 
 **For full instructions on running this project, take our
 [Cypress JavaScript tutorial](https://applitools.com/tutorials/quickstart/web/cypress)!**
+ 
