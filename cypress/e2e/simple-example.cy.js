@@ -27,6 +27,8 @@ describe('ACME Bank', () => {
             //     {selector: '.dashboardTable_dbTable___R5Du'}
             // ]
         });
+
+        cy.eyesCheckWindow({ tag: 'width & height breakpoint', layoutBreakpoints: [true, true] });
     })
     afterEach(() => {
         // End Applitools Visual AI Test
