@@ -1,7 +1,12 @@
 module.exports = {
+
+    apiKey: process.env.APPLITOOLS_API_KEY, 
+    serverUrl: "https://eyes.applitools.com",
+
     // Specify the number of visual checkpoints Applitools will perform in parallel.
     // Warning: If you have a free account, then concurrency will be limited to 1.
-    testConcurrency: 5,
+    testConcurrency: 10,
+
 
     // Uncomment the below line and paste in your API key as an alternative to using an environment variable
     // apiKey: '',
