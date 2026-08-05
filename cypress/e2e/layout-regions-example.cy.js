@@ -26,9 +26,8 @@ describe('ACME Bank', () => {
                 {selector: '.dashboardTable_dbTable___R5Du'}
             ]
         });
-    })
-    afterEach(() => {
         // End Applitools Visual AI Test
         cy.eyesClose()
     })
+    
 })
