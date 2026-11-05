@@ -29,9 +29,8 @@ describe('ACME Bank', () => {
         });
 
         cy.eyesCheckWindow({ tag: 'width & height breakpoint', layoutBreakpoints: [true, true] });
-    })
-    afterEach(() => {
-        // End Applitools Visual AI Test
+          // End Applitools Visual AI Test
         cy.eyesClose()
     })
+
 })
